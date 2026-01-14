@@ -1,34 +1,42 @@
-.stats-grid:first-child::before  {
+.stats-grid:first-child::before {
     content: '🔥';
     font-size: 40px;
 }
 
 .stats-grid:last-child {
-    background: linear-gradient(to right, rgb(103, 103, 248), rgb(173, 33, 173) );
+    background: linear-gradient(to right, rgb(103, 103, 248), rgb(173, 33, 173));
 }
 
 .stats-container .stats-grid:nth-child(3) .stat-number,
 .stats-container .stats-grid:nth-child(3) .stat-label {
-  color: white;
-  }
+    color: white;
+}
 
-  .stats-grid:hover {
+.stats-grid:hover {
     transform: translateY(-5px);
     box-shadow: 0px 10px 30px;
-  }
+}
 
-  .workout-plan:nth-of-type(2) {
-  background-color: #FFF8BA;
-  border-left: 5px solid;
-  border-color: orange;
-  }
+.workout-plan:nth-of-type(2) {
+    background-color: #FFF8BA;
+    border-left: 5px solid;
+    border-color: orange;
+}
 
-  .exercise-item:first-child, .exercise-item:last-child  {
+.exercise-item:first-child,
+.exercise-item:last-child {
     background: #F0FFF4;
     border-left: 5px solid green;
- 
 }
 
-.stats-grid:last-child {
-   
+.exercise-item:nth-child(2)::before,
+.exercise-item:nth-child(3)::before {
+    content: '⚡'; 
 }
+
+.goal-input-group input:focus,
+.goal-input-group select:focus {
+  border-color: blue; 
+  box-shadow: 0 0 0 3px blue;
+  outline: none
+  }
