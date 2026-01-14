@@ -61,3 +61,15 @@
     top: 60%;
     right: 5px;
 }
+
+.nav-footer .nav-item:first-child {
+    background-color: #1c2733;
+    color: rgb(126, 209, 236);
+}
+
+.nav-footer .nav-item:nth-child(2):hover,
+.nav-footer .nav-item:nth-child(3):hover,
+.nav-footer .nav-item:nth-child(4):hover {
+    color: rgb(126, 209, 236);
+    background-color: #1c2733
+}
