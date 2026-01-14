@@ -31,18 +31,33 @@
 
 .exercise-item:nth-child(2)::before,
 .exercise-item:nth-child(3)::before {
-    content: '⚡'; 
+    content: '⚡';
 }
 
 .goal-input-group input:focus,
 .goal-input-group select:focus {
-  border-color: blue; 
-  box-shadow: 0px 0px 0px 4px blue;
-  outline: none
-  }
+    border-color: blue;
+    box-shadow: 0px 0px 0px 4px blue;
+    outline: none
+}
 
-  .save-btn:hover {
-  transform: translateY(-2px);
-  background: linear-gradient(to right, rgb(103, 103, 248), rgb(173, 33, 173));
-  box-shadow: 0px 4px 10px blue;
-  }
+.save-btn:hover {
+    transform: translateY(-2px);
+    background: linear-gradient(to right, rgb(103, 103, 248), rgb(173, 33, 173));
+    box-shadow: 0px 4px 10px blue;
+}
+
+.progress-bar {
+    position: relative;
+}
+
+.progress-fill::after {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    content: "65%";
+    position: absolute;
+    transform: translateY(-50%);
+    color: white;
+    font-size: 13px;
+    top: 60%;
+    right: 5px;
+}
