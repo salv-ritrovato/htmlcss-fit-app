@@ -22,3 +22,13 @@
   border-left: 5px solid;
   border-color: orange;
   }
+
+  .exercise-item:first-child, .exercise-item:last-child  {
+    background: #F0FFF4;
+    border-left: 5px solid green;
+ 
+}
+
+.stats-grid:last-child {
+   
+}
