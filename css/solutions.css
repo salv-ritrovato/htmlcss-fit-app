@@ -57,7 +57,7 @@
     position: absolute;
     transform: translateY(-50%);
     color: white;
-    font-size: 13px;
+    font-size: 12px;
     top: 60%;
     right: 5px;
 }
@@ -72,6 +72,10 @@
 .nav-footer .nav-item:nth-child(4):hover {
     color: rgb(126, 209, 236);
     background-color: #1c2733
+}
+
+.quote-box {
+    position: relative
 }
 
 .quote-box:before {
