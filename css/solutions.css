@@ -1,0 +1,4 @@
+.stats-grid:first-child::before  {
+    content: '🔥';
+    font-size: 40px;
+}
