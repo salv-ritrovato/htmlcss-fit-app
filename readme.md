@@ -1,5 +1,5 @@
 # Boolean
-Consegna
+
 Oggi proviamo un’esperienza che quasi tutti gli sviluppatori junior si trovano ad affrontare al loro primo giorno di lavoro: modificare del codice scritto da altri! 
 Siete stati assunti da un’azienda che vi chiede di apportare delle modifiche alla loro app. Tuttavia, dovrete apportare queste modifiche senza poter modificare l’HTML!
 La lista delle modifiche richieste si trova nel file readme.md della cartella che trovate in allegato. 
